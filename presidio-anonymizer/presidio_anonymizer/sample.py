@@ -1,7 +1,7 @@
 from presidio_anonymizer import AnonymizerEngine
 from presidio_anonymizer.entities import RecognizerResult, OperatorConfig, EngineResult
 
-def sample_run_anonymizer(text,start,end):
+def sample_run_anonymizer(text:str,start:int,end:int):
     # Initialize the engine
     engine = AnonymizerEngine()
 
